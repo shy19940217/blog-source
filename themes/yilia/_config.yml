@@ -2,7 +2,7 @@
 
 menu:
   主页: /
-  随笔: /tags/angular/
+  随笔: /tags/angular
 
 # SubNav
 subnav:
@@ -56,7 +56,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: "/img/avatar.png"
 
 #是否开启分享
 share_jia: true
@@ -68,7 +68,7 @@ duoshuo: shy19940217
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
-  header: '#4d4d4d'
+  header: 'orange'
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
 
@@ -88,7 +88,7 @@ smart_menu:
   aboutme: '关于我'
 
 friends:
-  友情链接1: http://localhost:4000/
+  友情链接1: http://
   友情链接2: http://localhost:4000/
   友情链接3: http://localhost:4000/
   友情链接4: http://localhost:4000/
