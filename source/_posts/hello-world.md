@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: angular2
 tags: nodejs angualr
 categories: angular
 ---
