@@ -77,7 +77,10 @@ style:
 slider:
   # 是否默认展开tags板块
   showTags: false
-
+  #文章长度
+auto_excerpt:
+enable: true
+length: 150
 # 智能菜单
 # 如不需要，将该对应项置为false
 # 比如

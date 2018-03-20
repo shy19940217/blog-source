@@ -4,7 +4,7 @@ date: 2018-03-19 17:48:32
 tags: webpack
 ---
 现在的前端网页功能丰富，特别是SPA（single page web application 单页应用）技术流行后，JavaScript的复杂度增加和需要一大堆依赖包，还需要解决SCSS，Less......新增样式的扩展写法的编译工作。所以现代化的前端已经完全依赖于WebPack的辅助了。
-
+<!--more-->
 ## 什么是WebPack？
 
 WebPack可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Sass，TypeScript等），并将其转换和打包为合适的格式供浏览器使用。在3.0出现后，Webpack还肩负起了优化项目的责任。
