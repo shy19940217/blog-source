@@ -1,7 +1,7 @@
 ---
-title: blog4
+title: 常见的跨域解决方案
 date: 2018-03-23 11:59:02
-tags: 常见的跨域解决方案
+tags: js
 ---
 
 ## cors共享
