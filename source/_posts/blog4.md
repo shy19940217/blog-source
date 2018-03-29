@@ -112,7 +112,7 @@ nginx反向代理,但是他可以不用目标服务器配合，不过需要你�
 server{
     location /｛   #所有以/开头的地址，实际上是所有请求
     
-    root  html     ＃去请求../html文件夹里的文件,其中..的路径在nginx里面有定义，安装的时候会有默认路径，详见另一篇博客
+    root  html     ＃去请求../html文件夹里的文件,其中..的路径在nginx里面有定义，安装的时候会有默认路径
     
     index  index.html index.htm  ＃首页响应地址
     
@@ -137,7 +137,7 @@ server {
             rewrite  ^.+apis/?(.*)$ /$1 break;
             include  uwsgi_params;
             proxy_pass   http://localhost:1894;
-       }
+        }
 }
 ```
 配置说明：配置一个/apis  重写到我们真正的api地址http://localhost:1894  形成一个代理的过程。
