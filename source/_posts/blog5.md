@@ -24,6 +24,7 @@ tags: vue
 　　不支持实例方法（如：'abc'.includes('b')、['1', '2', '3'].find((n) => n < 2) 等等），这个限制几乎废掉了大部分字符串和一半左右数组的新特性。
 
 一般情况下 babel-plugin-transform-runtime 能满足大部分的需求，当不满足需求时，推荐使用完整的 babel-polyfill。
+<!--more-->
 
 ### 响应式数据失效
 
